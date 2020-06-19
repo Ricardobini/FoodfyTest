@@ -59,35 +59,12 @@ header .menu a{
     
 }
 
-
-.pinkBox{
-    background: #FBDFDB;
-    height: 366px;
-    width: 940px;
-    align-items: center;
-    margin: 0 auto; 
-    border-radius: 30px;
-    display: flex;
+.card{
+  
+    cursor:pointer;
+    
     
 }
-
-img{
-    margin-left: 260px;
-    margin-top: 65px;
-    
-}
-.apresentation{
-    margin-left: 60px;
-    max-width: 300px;
-    line-height: 26px;
-}
-.apresentation h1{
-    margin-bottom: 10px;
-}
-#more{
-    margin: 50px 0px 20px;
-}
-
 
 .cards{
     width: 940px;  
@@ -140,26 +117,45 @@ footer{
     color:#999999;
 }
 
-
-.paragraph span{
-    
-    font-weight: bold;
+.modalPlate{
     font-size: 24px;
-    margin-bottom: 20px;
-   
+    text-align: center;
+    color: #111111;
+    display: block;
+    margin-top: 20px;
+}
+
+.modalChef{
+    font-size: 18px;
+    text-align: center;
+    color: #777777;
+    display: block;
+    margin-top: 5px;
+}
+
+.modalContent{
+    width: 600px;
+    height: 220px;
+    display: block;
+    margin: auto;
+    
+
 
 }
-.paragraph p{
-    font-size: 18px;
-    line-height: 28px;
-    color:#444444;
-    text-align: justify;
+.modalContent img{
+    
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    height: 200px;
+    width: 600px;
+}
+
+.modalText{
+    height: 130px;
     
 }
-
-.latin{
-    margin: 20px 0 20px;
-}
+   
 
 .modalOverlay{
     background-color: rgba(0,0,0,0.7);
@@ -179,22 +175,26 @@ footer{
     height: 413px;   
     position: relative;
     margin: 200px auto;
-     border-radius: 16px;
-   
-    
- 
+    border-radius: 16px;
     
 
 }
 
 .modal .closeModal{
     color: black;
-    position: absolute;
+    
     bottom: 10px;
     left: 200px;
     cursor:pointer;
+    font-size: 18px;
+    text-align: center;
+    color: #999999;
+    display: block;
+    font-size: 16px;
+   
 }
-
+   
+ 
 
 
 .modalOverlay.active{
